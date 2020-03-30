@@ -1,11 +1,11 @@
 # ticket-booking
 
 The application implements reservation confirmation as an additional task.
-In RESERVATIONS table I set up two reservations for screening_id = 1
+In RESERVATIONS table I set up two reservations for screening_id = 1.
 
-Ticket booking app - install and run application - excecute installAndRunApp.bat file
+Cinema booking app to install and run application, excecute installAndRunApp.bat file.
 
-Ticket booking app - curl scenarios
+Cinema booking app - curl scenarios:
 
 #scenario no. 1 - get a list of available screenings:
 curl -X GET -H "Content-type: application/json" -H "Accept: application/json" "http://localhost:8080/movies?dateFrom=2020-04-04%2012:00&dateTo=2020-04-05%2020:00"
